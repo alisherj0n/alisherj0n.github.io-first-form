@@ -75,7 +75,7 @@ html, body
 }
 
 .rememberme{
-    padding-right: 75px;
+    padding-right: 60clspx;
     color: black;
 }
 
@@ -109,8 +109,5 @@ html, body
     border-bottom-width: thin;
     padding: 1px;
     color: #587cdd;
-    font-size: smaller;
-    font-weight: bold;
-
 
 }
