@@ -24,9 +24,10 @@ html, body
     flex-direction: column;
     justify-content: center;
     border-radius: 4px;
-    padding-top: 15px;
+    /* padding-top: 15px; */
     color: #4c4c52;
-    margin-bottom: 167px;
+    margin-bottom: 0px;
+    padding: 45px;
 }
 
 .logo {
