@@ -27,6 +27,7 @@ html, body
     color: #4c4c52;
     margin-bottom: 0px;
     padding: 25px;
+    box-shadow: 4px 1px 7px 1px #4c4747;
 }
 
 .logo {
