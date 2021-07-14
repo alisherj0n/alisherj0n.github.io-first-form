@@ -9,39 +9,44 @@ html, body
     display: flex;
     justify-content: center;
     align-items: center;
-    font-family: 'Roboto', sans-serif;
+    font-family: Roboto, "Helvetica Neue", sans-serif;
     color: #44444c;
+
 }
 
 .container{
-    font-size: smaller;
+
     align-items: center;
     background-color: #fff;
     color: auto;
-    height: 370px;
-    width: 320px;
+    height: 417px;
+    width: 310px;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    border-radius: 4px;
+    border-radius: 3px;
     color: #4c4c52;
-    margin-bottom: 0px;
-    padding: 25px;
-    box-shadow: 4px 1px 7px 1px #4c4747;
+    padding: 45px;
+    margin-bottom:72px;
+    
 }
 
 .logo {
     background-image: url(images/logo.jpg);
     background-size: contain;
     background-repeat: no-repeat;
-    height: 80px;
-    width: 80px;
-    margin-bottom: -30px;
+    height: 70px;
+    width: 100px;
+    margin-bottom: 0;
+
 }
 
-.h2{
-    margin-top: 60px;
+.container h2{
+    font-size: 1.6rem;
+    font-weight: 400;
+    margin-bottom: 38px;
 }
+
 .phonenumber{
     background-color: #d8d8ea;
     border: none;
@@ -52,19 +57,19 @@ html, body
 }
 
 #phone{
-    background-color: #e5e8f1;
+    background-color: #f3f7f9;
     border: none;
     padding: 10px;
-    width: 290px;
-    height: 30px;
+    width: 280px;
+    height: 35px;
 }
 
 #passw{
-    background-color: #e5e8f1;
+    background-color: #f3f7f9;
     border: none;
     padding: 10px;
-    width: 290px;
-    height: 30px;
+    width: 280px;
+    height: 35px;
 }
 
 
@@ -74,13 +79,13 @@ html, body
 }
 
 .rememberme{
-    padding-right: 120px;
-    color: black;
+    padding-right: 70px;
+    color: #3E546E;
 }
 
 .checkbox{
     display:flex;
-    justify-content:space-between;
+    justify-content:space-around;
     align-items: center;
 }
 .passwordforgot{
@@ -88,7 +93,7 @@ html, body
 }
 
 .button button{
-    background-color: #5d5dff;
+    background-color: #5b77fe;
     border: none;
     color: white;
     padding: 15px 80px;
@@ -96,17 +101,22 @@ html, body
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
-    margin: 14px;
+    margin-top: 20px;
     border-radius: 3px;
     width: 300px;
     text-transform: uppercase;
+    cursor: pointer;
+    height: 55px;
+    font-size: 1rem;
+    font-weight: 600;
+
 }
 
 .password1{
     text-decoration: none;
     border-bottom: dashed;
     border-bottom-width: thin;
-    padding: 1px;
+    padding: 4px;
     color: #587cdd;
 
 }
