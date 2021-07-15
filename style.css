@@ -10,16 +10,15 @@ html, body
     justify-content: center;
     align-items: center;
     font-family: Roboto, "Helvetica Neue", sans-serif;
-    color: #44444c;
+    color: #3E546E
 
 }
 
 .container{
-
     align-items: center;
     background-color: #fff;
     color: auto;
-    height: 417px;
+    height: 418px;
     width: 310px;
     display: flex;
     flex-direction: column;
@@ -27,8 +26,7 @@ html, body
     border-radius: 3px;
     color: #4c4c52;
     padding: 45px;
-    margin-bottom:72px;
-    
+    margin-bottom: 72px;
 }
 
 .logo {
@@ -37,21 +35,28 @@ html, body
     background-repeat: no-repeat;
     height: 70px;
     width: 100px;
-    margin-bottom: 0;
+    margin-bottom: 0px;
 
 }
 
 .container h2{
     font-size: 1.6rem;
     font-weight: 400;
-    margin-bottom: 38px;
+    margin-bottom: 20px;
+
 }
 
+.input1{
+    padding: 0px 0px 0px 15px;
+
+}
 .phonenumber{
     background-color: #d8d8ea;
     border: none;
     margin-bottom: 25px;
+    
 }
+
 .input{
     background-color:#c9c9d6;
 }
@@ -59,22 +64,24 @@ html, body
 #phone{
     background-color: #f3f7f9;
     border: none;
-    padding: 10px;
-    width: 280px;
-    height: 35px;
+    width: 290px;
+    height: 55px;
+    
 }
 
 #passw{
     background-color: #f3f7f9;
     border: none;
-    padding: 10px;
-    width: 280px;
-    height: 35px;
+    width: 290px;
+    height: 55px;
+    border-radius: 5px;
+  
 }
 
 
+
 .password{
-    margin-bottom: 20px;
+    margin-bottom: 40px;
 
 }
 
@@ -87,6 +94,7 @@ html, body
     display:flex;
     justify-content:space-around;
     align-items: center;
+    margin-top: -1px;
 }
 .passwordforgot{
     display: inline;
@@ -109,6 +117,7 @@ html, body
     height: 55px;
     font-size: 1rem;
     font-weight: 600;
+    margin-bottom: 2px;
 
 }
 
